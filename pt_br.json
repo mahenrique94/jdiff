@@ -1,0 +1,1121 @@
+{
+    "locale": "pt_br",
+    "dateFormat": "DD/MM/YYYY",
+    "dateTimeFormat": "DD/MM/YYYY HH:mm",
+    "undefined": "indefinido",
+    "No results found": "Nenhum resultado encontrado",
+    "edit": "editar",
+    "view": "ver",
+    "Since": "Desde",
+    "to": "até",
+    "perMonth": "a.m.",
+    "perYear": "a.a.",
+    "months": "meses",
+    "Loading": "Carregando",
+    "Logged as": "Logado como",
+    "header": {
+        "Home": "Início",
+        "Advanced Search": "Busca avançada",
+        "Backoffice": "Backoffice",
+        "Financing program": "Programas de financiamento",
+        "Credit Application Workflow Management": "Configuração de regras"
+    },
+    "rootView": {
+        "A error ocurred when mounting application":
+            "Um erro aconteceu ao iniciar a aplciação"
+    },
+    "customerSearchByDocument": {
+        "Find a Customer": "Pesquisar cliente",
+        "Search placeholder": "Digite o CNPJ ou CPF do cliente",
+        "Cannot find customer with document":
+            "Não foi possivel encontrar cliente com este CNPJ ou CPF",
+        "To find a customer, enter the document in the field above":
+            "Para pesquisar clientes, insira o CPF ou CNPJ no campo acima"
+    },
+    "customerAdvancedSearch": {
+        "Customer Search": "Pesquisa de cliente",
+        "Hide": "Ocultar",
+        "Show": "Mostrar",
+        "Filters": "Filtros",
+        "search customers": "pesquisar clientes",
+        "Enter internal ID or Document":
+            "Insira o código do cliente ou CNPJ/CPF",
+        "Name": "Nome",
+        "Status": "Situação",
+        "All types": "Todos os Tipos",
+        "All stores": "Todas as Lojas",
+        "No Credit Limit": "Nenhum Limite de Crédito disponível",
+        "Empty": "Nenhum cliente foi encontrado."
+    },
+    "customerAdvancedSearchTable": {
+        "Id": "Código do Cliente",
+        "Name": "Nome",
+        "Document": "Documento",
+        "Process Num.": "Num. do Processo",
+        "Credit Available": "Limite de Crédito Disponível",
+        "Expiration Date": "Data da Expiração",
+        "Store": "Loja",
+        "Credit Type": "Tipo de Crédito",
+        "Activation Date": "Data de Ativação",
+        "End Date": "Data Final"
+    },
+    "FinancingProgramSearchTable": {
+        "Status": "Situação",
+        "Active": "Ativo",
+        "Disabled": "Desabilitado",
+        "Financing Program": "Programa de Financiamento",
+        "Operation Rate": "Taxa da Operação",
+        "Validity": "Validade",
+        "Max. Per. Fin.": "Percent. Max. Fin.",
+        "Market Type": "Tipo de Mercado",
+        "Financing Max. Period": "Periodo Max. Fin.",
+        "Actions": "Ações",
+        "AGT": "AG&T",
+        "CF": "C&F",
+        "Commercial name": "Denominação comercial",
+        "Short name": "Sigla",
+        "Select a Market Type": "Selecione o tipo de mercado",
+        "Select a Status": "Selecione uma situação"
+    },
+    "greyBox": {
+        "Identification": "Identificação",
+        "Name": "Nome",
+        "Internal ID": "Código interno do cliente",
+        "Document": "Documento",
+        "Contact": "Contato",
+        "Address": "Endereço",
+        "Dealers": "Dealers",
+        "More Details": "Mais Detalhes",
+        "Market Types": "Tipos de Mercado",
+        "Crops": "Culturas"
+    },
+    "notFound": {
+        "no credit limit":
+            "Não há limite de crédito aprovado para o cliente. Por favor, requisite o limite de crédito clicando na opção abaixo.",
+        "no costumers": "Nenhum cliente encontrado",
+        "no participants":
+            "Nenhum participante registrado na operação. Adicione através da busca acima",
+        "no documents": "Nenhum tipo de documento especificado",
+        "no rules": "Nenhuma regra encontrada"
+    },
+    "error": {
+        "Failed to render the entire form": "Falha ao processar a operação"
+    },
+    "CreditLimit": {
+        "Credit Limit in Progress":
+            "Já existe uma requisição de limite de crédito em progresso andamento para esse cliente ou grupo econômico.",
+        "Transaction in Progress":
+            "Cliente não possui limite de crédito disponível. Por favor, verifiqe o histórico de transações ou entre em contato com o Banco"
+    },
+    "CreditLimitTable": {
+        "Process Number": "Número do Processo",
+        "Credit Limit Number": "Número do Limite de Crédito",
+        "Total Limit": "Limite Total",
+        "Available Limit": "Limite disponível",
+        "Credit Situation": "Situação do Crédito",
+        "Expiration Date": "Data de Expiração",
+        "Credit Type": "Tipo de Crédito",
+        "Actions": "Ações",
+        "Credit Limit": "Limite de Crédito",
+        "Empty":
+            "Não há limite de crédito aprovado para o cliente. Por favor, faça a requisição de limite clicando na opção abaixo.",
+        "Request Credit Limit": "Requisitar Limite de Crédito"
+    },
+    "TransactionTable": {
+        "Transactions": "Transações",
+        "Last Transactions": "Últimas Transações",
+        "Transaction Number": "Número da Transação",
+        "Credit Limit Number": "Número do Limite de Crédito",
+        "Empty": "Não há transações registradas",
+        "Creation Date": "Data de Criação",
+        "Financing Program": "Programa de Financiamento",
+        "Amount": "Total",
+        "Status": "Situação",
+        "Request Transaction": "Nova Transação"
+    },
+    "TransactionInvoiceDetails": {
+        "Access Key": "Chave de Acesso",
+        "Invoice Number": "Número da Nota Fiscal",
+        "Item Type": "Tipo de Item",
+        "Date of issue": "Data de Emissão",
+        "Invoice Total": "Total da Nota Fiscal",
+        "% Financed": "% de Financiamento",
+        "Amount Finan.": "Total Finan.",
+        "Total Price": "Total Financiado"
+    },
+    "newCreditLimitScreen": {
+        "Generate Pendencies": "Gerar Pendências",
+        "All invoices uploaded are sent to the bank analyse.":
+            "Todas as Notas Fiscais foram carregadas e enviadas para análise do banco.",
+        "See the related pendencies below":
+            "Visualizar as pendências relacionadas abaixo",
+        "Credit Limit Request": "Requisitar Limite de Crédito",
+        "Save as a Draft": "Salvar como rascunho",
+        "Submit Request": "Submeter Requisição",
+        "Store": "Loja",
+        "Corresponding Agent": "Correspondente bancário",
+        "Ex. 3.000.000,00": "Ex. 3.000.000,00",
+        "Amount Required": "Total Requerido",
+        "Process number": "Número do Processo",
+        "Created by": "Criado por",
+        "Creation date": "Data de Criação",
+        "Current Stage": "Estágio Atual",
+        "Dealer": "Dealer",
+        "Save changes": "Salvar Alterações",
+        "Discard draft": "Descartar Rascunho",
+        "Cancel Request": "Cancelar Requisição",
+        "Discard": "Descartar",
+        "Resend": "Reenviar",
+        "Operation Participants": "Participantes da Operação",
+        "Expiring Date": "Data de Expiração",
+        "Start documentation analysis": "Começar Análise de doc.",
+        "Wait for pendencies": "Aguardando regularização de pendências",
+        "Send to credit analysis": "Enviar para Análise Crédito",
+        "Credit Limit History": "Histórico do Limite de Crédito",
+        "Accept": "Aceitar",
+        "Expiring date": "Data de Expiração",
+        "Credit Analysis Number": "Núm. Análise de Crédito",
+        "Cancel Credit Limit Request":
+            "Cancelar Requisição do Limite de Crédito",
+        "This is an irreversible action. Do you want to proceed?":
+            "Essa ação é irreversível. Você deseja continuar?",
+        "Discard Draft": "Descartar Rascunho",
+        "Do you want to proceed?": "Você deseja continuar?",
+        "Cancel Transaction Request": "Cancelar Requisição de Transação",
+        "Some of the participants selected":
+            "Alguns dos participantes selecionados",
+        "Pendencies detected": "Pendências encontradas",
+        "Refresh Required Documents": "Atualizar documentos obrigatórios",
+        "These required document below may be outdated":
+            "Os documentos obrigatórios abaixo podem estar desatualizados",
+        "Update them by click on the refresh button.":
+            "Atualize os documentos clicando no botão de atualização.",
+        "Refresh pendencies Automatically":
+            "Ao atualizar as pendências a requisição será salva automaticamente. Continuar?",
+        "Participant": "Participante",
+        "IMPORTANT": "IMPORTANTE",
+        "Required Documents Informative":
+            "Esses documentos apenas são informativos. Para criar suas pendências, salve esse processo como WIP.",
+        "Pendencies": "Pendências",
+        "You have": "VocÊ tem",
+        "opened pendencies": "pendências abertas",
+        "Cancel Limit": "Cancelar Limite de Crédito",
+        "Cancel Credit Limit": "Cancelar Limite de Crédito",
+        "Are you sure do you want to cancel the credit limit?":
+            "Você tem certeza que deseja cancelar o limite de crédito?",
+        "Credit Limit Stage": "Estágio do Limite de Crédito",
+        "Process Stage": "Estágio do Processo",
+        "Refresh Required Documentation": "Atualizar documentação obrigatória",
+        "UPDATE_DOCUMENTATION_SAVE_DRAFT":
+            "A documentação obrigatória está desatualizada. Deseja atualizar antes de salvar o processo?",
+        "Refresh Pendencies": "Atualizar Pendências",
+        "Generate Contract": "Gerar Contrato",
+        "Resend to credit analysis": "Reenviar limite de crédito para análise"
+    },
+    "operationCreditLimitParticipants": {
+        "Name": "Nome",
+        "Document": "Documento",
+        "Role": "Figura",
+        "Gross Agricultural Income": "Renda Agrícola Bruta",
+        "Gross Operational Income": "Renda Operacional Bruta",
+        "Type": "Tipo",
+        "Type:": "Tipo: ",
+        "Reference Date": "Data de Referências",
+        "Ref. Date": "Data Ref.",
+        "Ref. Date:": "Data Ref: ",
+        "Actions": "Ações",
+        "Search here by document": "Procure aqui por documento",
+        "Select a role": "Selecione uma figura",
+        "Repeated participant": "Participante já inserido",
+        "Incomes": "Rendimentos",
+        "Restrictions": "Restrições",
+        "Value": "Valor"
+    },
+    "TransactionMessage": {
+        "Please contact Jhon Deere Bank for more information":
+            "Por favor, contate o Banco Jhon Deere para mais informações",
+        "You don't have Financing Program Available":
+            "Nenhum Programa de Financiamento disponível para o cliente",
+        "You don't have an approved Credit Limit":
+            "Cliente não possui Limite de Crédito aprovado",
+        "The customer has some bureau restriction":
+            "O cliente com restrições no Bureau"
+    },
+    "TransactionScreen": {
+        "New Transaction Request": "Requisitar Nova Transação",
+        "Transaction": "Transação",
+        "Transaction Request": "Requisitar Transação",
+        "Transaction History": "Histórico da Transação",
+        "Credit Limit Number": "Número do Limite de Crédito",
+        "Transaction Number": "Número da Transação",
+        "Created By": "Criado por",
+        "Available": "Limite de Crédito Disponível",
+        "Creation date": "Data de Criação",
+        "Expiration date": "Data de Expiração",
+        "Credit Limit Details": "Detalhes do Limite de Crédito",
+        "Transaction Details": "Detalhes da Transação",
+        "Operation Participants": "Participantes da Operação",
+        "Finance Program Details": "Detalhes do Programa de Financiamento",
+        "Invoice Details": "Detalhes das Notas Fiscais",
+        "Current Stage": "Estágio Atual",
+        "Download Contract": "Baixar Contrato",
+        "The contract is ready for download": "O contrato já foi baixado",
+        "After that, you need to upload the contract assigned.":
+            "Posteriormente necessário carregar o contrato assinado.",
+        "Generate Contract": "Gerar Contrato",
+        "Are you sure about this action?": "Você tem certeza sobre essa ação?",
+        "There is a transaction already opened by the:":
+            "Já existe uma transação aberta por ",
+        "Release Transaction": "Release Transaction",
+        "Disbursement date:": "Disbursement date: "
+    },
+    "TransactionSteps": {
+        "Credit Limit": "Limite de Crédito",
+        "Contract": "Contrato",
+        "Disbursement": "Desembolso",
+        "Financing Program": "Programa de Financiamento",
+        "Invoices": "Notas Fiscais"
+    },
+    "FinanceProgramDetails": {
+        "Not defined": "Não definido",
+        "Operation Rate": "Taxa de Operação",
+        "Min. Ticket Financed": "Valor Min. Financ:",
+        "Validity": "Validade:",
+        "Financing Max. Period": "Período Máx Financiado:",
+        "Max. Per Financed": "Percent. Máx Financiado:",
+        "%": "%",
+        "Since": "Desde ",
+        "To": " para ",
+        "Months": " Meses",
+        "Month": " Mês",
+        "Payment Frequency": "Frequência de Pagamento: ",
+        "Frequency": "Frequência: ",
+        "IOF": "IOF: ",
+        "Dealer Guarantee": "Garantia do Concessionário: ",
+        "Range Financed": "Intervalo de Financiamento: ",
+        "Reserve Fund": "Fundo de Reserva: ",
+        "% of Commmitment": "% de Comprometimento: ",
+        "% of Limit Take": "% de Limite: ",
+        "Financed Items": "Itens Financiados: ",
+        "TAC (PF)": "TCF: ",
+        "TAC (PJ)": "TAC (PJ): ",
+        "Select a Financing Program": "Selecione um Programa de Financiamento"
+    },
+    "financingProgramScreens": {
+        "New Financing Program": "Novo Programa de Financiamento",
+        "Edit Financing Program": "Editar Programa de Financiamento",
+        "Customer already inserted in table": "Cliente já adiconado na lista"
+    },
+    "financingProgramSearch": {
+        "Financing Program Search": "Pesquisar programas de financiamento",
+        "Empty": "Nenhum programa encontrado"
+    },
+    "financingProgramGeneral": {
+        "and": "e",
+        "Dealer Subsidy is between": "Subsídio do Concessionáro está entre",
+        "Status": "Situação",
+        "Short Name": "Sigla",
+        "Value Details": "Detalhes dos valores",
+        "General": "Geral",
+        "Commercial Name": "Nome Comercial",
+        "Commercial Name placeholder": "Ex: Soja 2018",
+        "Activation Date": "Data de Ativação",
+        "Activation Date placeholder": "Ex: 24 de Set de 2017",
+        "End Date": "Data Final",
+        "End Date placeholder": "Ex: 24 de Set de 2017",
+        "Accounting Deadline": "Prazo Contabilização",
+        "Accounting Deadline placeholder": "Ex: 24 de Set de 2017",
+        "Market Type": "Tipo de Mercado",
+        "Currency": "Moeda",
+        "Financing Range": "Intervalo de Financiamento",
+        "to": "para",
+        "Select currency": "Selecione a moeda",
+        "Customer (%)": "Cliente (%)",
+        "Dealer Subsidy (%)": "Subsídio do Dealer (%)",
+        "Factory Subsidy (%)": "Subsídio da Fábrica (%)",
+        "Operation Rate (%)": "Taxa de Operação (%)",
+        "Operation Rate (% MONTHLY)": "Taxa de Operação (% Mensal)",
+        "Operation Rate (% ANNUAL)": "Taxa de Operação (% Anual)",
+        "Max. Per. Financed (%)": "Perc. Máx. de Financiamento (%)",
+        "Min. Ticket": "Valor Min.",
+        "Percentage placeholder": "0.00%",
+        "Operation Rate": "Taxa de Operação",
+        "MONTHLY": "Mensalmente",
+        "ANNUAL": "Anualmente",
+        "Frequency": "Frequência",
+        "Accounting Data (Regional Settings for Brazil)":
+            "Dados Contábeis (Configurações Regionais para o Brasil)",
+        "Accounting Data (Regional Settings for Mexico)":
+            "Dados Contábeis (Configurações Regionais para o México)",
+        "Transfer Line": "Modalidade",
+        "Calculation Method": "Método de cálculo",
+        "IOF": "IOF",
+        "Reserve Fund": "Fundo de Reserva",
+        "Percentage Fund (%)": "Percentual de Fundo (%)",
+        "TAC (PJ)": "TCF (PJ)",
+        "Value": "Valor",
+        "Financed?": "Financiado?",
+        "TAC (PF)": "TCF (PF)",
+        "Dealer Guarantee": "Garantia do Dealer",
+        "% of Commitment": "% de Comprometimento",
+        "% of Limit Take": "% de Limite",
+        "AGT": "AG&T",
+        "CF": "C&F",
+        "Fixed": "Fixo",
+        "Flexible": "Variável",
+        "Total": "Total",
+        "Pro-rata": "Pro-rata",
+        "|": "|",
+        "Flat": "Flat",
+        "Flat Dealer (%)": "Flat Dealer (%)",
+        "Flat Factory (%)": "Flat Fábrica (%)",
+        "Accounting Data": "Dados Contábeis",
+        "Opening Fee ($)": "Taxa de Abertura ($)",
+        "Opening Fee (%)": "Taxa de Abertura (%)",
+        "Administrative Expenses": "Despesas Administrativas",
+        "Disbursement fee": "Taxas de Desembolso (%)"
+    },
+    "financingProgramAmortization": {
+        "Amortization Items": "Fluxo de parcelamento",
+        "Financing Max. Period": "Período Max. de Financiamento",
+        "In months": "Em meses",
+        "Payment Frequency": "Frequência de pagamento",
+        "Select payment": "Selecione o pagamento",
+        "Due Date": "Data Vencimento",
+        "Min. Grace Period": "Período Min. de Carência",
+        "Max. Grace Period": "Período Máx. de Carência"
+    },
+    "financingProgramFinancedItems": {
+        "Financed Items": "Itens Financiados",
+        "Items": "Itens",
+        "Parts": "Peças",
+        "Services": "Serviços"
+    },
+    "financingProgramCondition": {
+        "Insert the document of the Customer":
+            "Inserir documento para o cliente",
+        "Insert the document of the Dealer":
+            "Inserir documento para o concessionário",
+        "Name": "Nome",
+        "Document": "Documento",
+        "Actions": "Ações"
+    },
+    "financingProgramConditionCustomers": {
+        "Condition Customers": "Condição do Cliente",
+        "Condition": "Condição",
+        "All": "Todos",
+        "PJ": "PJ",
+        "PF": "PF",
+        "PJ + PF": "PJ + PF",
+        "Type": "Tipo",
+        "Condition Type": "Tipo de Condição",
+        "Crops": "Cultura",
+        "Regions": "Regiões",
+        "Group of customer Types": "Grupos do Cliente",
+        "Insert the document of the Customer":
+            "Inserir o documento para o Cliente",
+        "Insert the document of the Dealer":
+            "Inserir o documento para o Concessionário",
+        "Name": "Nome",
+        "Document": "Documento",
+        "Actions": "Ações"
+    },
+    "financingProgramButtons": {
+        "Save as a Draft": "Salvar como Rascunho",
+        "Save changes": "Salvar Mudanças",
+        "New Financing Program": "Novo programa de financiamento",
+        "Do you want to proceed?": "Deseja prosseguir?",
+        "Create Financing Program": "Criar Programa de Financiamento",
+        "Discard Draft": "Descartar Rascunho"
+    },
+    "financingProgramRegional": {
+        "Accounting Data": "Dados Contábeis (Reginal para o EUA)",
+        "Transfer Line": "Linha de Repasse",
+        "Calculation Method": "Método de Cálculo",
+        "Modality PF (For Parts)": "Modalidade PF (Para Peças)",
+        "Modality PJ (For Parts)": "Modalidade PJ (Para Peças)",
+        "Modality PF (For Services)": "Modalidade PF (Para Serviços)",
+        "Modality PJ (For Services)": "Modalidade PJ (Para Serviços)",
+        "Reserve Fund": "Fundo de Reserva",
+        "Percentage Fund (%)": "Percentual de Fundo (%)",
+        "TAC (PJ)": "TCF (PJ)",
+        "TAC (PF)": "TCF (PF)",
+        "Financed?": "Financiado?",
+        "Dealer Guarantee": "Garantia do Dealer",
+        "Value": "Valor",
+        "% of Commitment": "% de Comprometimento",
+        "% of Limit Take": "% de Limite",
+        "Yes": "Sim",
+        "No": "Não"
+    },
+    "FinancingProgramTable": {
+        "Available Financing Program *":
+            "Programas de Financiamento Disponíveis *",
+        "Financing Program": "Programa de Financiamento",
+        "Operation Rate": "Taxa de Operação",
+        "Validity": "Validade",
+        "Max. Per. Financed": "Perc. Máx. de Financiamento",
+        "Min. Ticket": "Valor Min.",
+        "Financing Max. Period": "Período Máx. de Financiamento",
+        "Empty": "Não há programa de financiamento para o cliente.",
+        "*Financing Programs are available to customers with approved credit limit.":
+            "*Programas de Financiamento estão disponíveis para o cliente com aprovação do limite de crédito.",
+        "Available Financing Program depends on customer profile and conditions applicable":
+            "Programas de Financiamento disponíveis de acordo com o perfil do cliente",
+        "Commercial Name": "Descrição Comercial",
+        "Range Financed": "Faixa de financiamento"
+    },
+    "footer": {
+        "copyright":
+            "Direito Autoral © 2018 Deere & Company. Todos os direitos reservados"
+    },
+    "bureau": {
+        "Last query": "Última consulta",
+        "See report": "Ver relatório",
+        "Refresh": "Atualizar",
+        "Loading bureau report":
+            "Carregar relatório do Bureau das consultas de clientes",
+        "Verdict ok": "Sem restrições",
+        "Verdict not ok": "Com restrições",
+        "Requires manual analysis": "Necessita de revisão do banco",
+        "Details": "Detalhes",
+        "Not analysed": "Não analizado",
+        "Bureau Status": "Status da Consulta de Clientes"
+    },
+    "ConfirmationModal": {
+        "No": "Não",
+        "Yes": "Sim",
+        "Cancel": "Cancelar",
+        "dismiss": "Sim, dispensar",
+        "approve": "Sim, aprovar",
+        "Reject": "Sim, rejeitar",
+        "reject and dismiss": "Sim, rejeitar e dispensar",
+        "send": "Sim, enviar"
+    },
+    "GlobalAlertModal": {
+        "Ok": "Certo"
+    },
+    "workflowRules": {
+        "New rule": "Nova regra",
+        "Edit rule": "Editar regra",
+        "Workflow Title":
+            "Gerenciamento de fluxo de trabalho na aplicação de crédito",
+        "Name": "Nome da Regra",
+        "Name placeholder": "Ex: Regra de pendencia - R$ 100.000,00",
+        "Market Type": "Tipo de mercado",
+        "Select Market Type": "Selecione o Tipo de Mercado",
+        "in days": "em dias",
+        "In days": "Em dias",
+        "Customer Database Validity": "Validade da Base do Cliente",
+        "Main Proposer Profile": "Perfil do Proponente Principal",
+        "Customer Nature": "Natureza do Cliente",
+        "All": "Todos",
+        "PJ": "PJ",
+        "PF": "PF",
+        "Customer Type": "Tipo de Cliente",
+        "New": "Novo",
+        "Recurrent": "Recorrente",
+        "Limit Value Range": "Valor da Faixa do Limite",
+        "Total Risk": "Risco Total",
+        "Status": "Situação",
+        "Documents": "Documentos",
+        "Document Group": "Grupo do Documento",
+        "Select Document Group": "Selecione o Grupo do Documento",
+        "Document Type": "Tipo de Documento",
+        "Select Document Type": "Selecione o Tipo de Documento",
+        "Requirement": "Exigência",
+        "Select Requirement": "Selecione a exigência",
+        "Action": "Ação",
+        "Select a role": "Selecione a figura",
+        "Cancel": "Cancelar",
+        "Save Rule": "Salvar Regra",
+        "Add rule": "Adicionar Regra",
+        "All your changes will be lost. Do you want to proceed?":
+            "Todas suas mudanças serão perdidas. Você quer continuar?",
+        "Value Details": "Detalhes do Valor",
+        "Currency": "Moeda",
+        "Active": "Ativo",
+        "Inactive": "Inativo",
+        "Disabled": "Desabilitado",
+        "Roles": "Figuras",
+        "Presentation Required": "Apresentação Obrigatória",
+        "DIGITAL": "Digital",
+        "ORIGINAL": "Original",
+        "AUTHENTICATED": "Cópia Autenticada",
+        "SIMPLE_COPY": "Cópia Simples",
+        "Select PresentationRequired": "Selecione a Apresentação Obrigatória",
+        "NATURAL": "PF",
+        "CORPORATE": "PJ"
+    },
+    "DocumentRequirement": {
+        "OPTIONAL": "Opcional",
+        "IMPEDIMENT": "Obrigatório"
+    },
+    "ResultAnalysisType": {
+        "PEP": "PEP",
+        "PLD_MIDIA": "PLD Mídia",
+        "RSA": "RSA",
+        "SERASA": "SERASA",
+        "BACEN": "BACEN",
+        "PAST_DUE": "Atraso"
+    },
+    "iof": {
+        "FINANCED": "Aplicável e financiado",
+        "NOT_FINANCED": "Aplicável e não financiado",
+        "NOT_APPLICABLE": "Não aplicável"
+    },
+    "iofTransaction": {
+        "FINANCED": "Financiado",
+        "NOT_FINANCED": "Não Financiado",
+        "NOT_APPLICABLE": "Não Aplicável"
+    },
+    "financedItems": {
+        "PARTS": "Peças",
+        "SERVICES": "Serviços"
+    },
+    "paymentFrequency": {
+        "ONE": "Um Pagamento",
+        "MONTHLY": "Mensalmente",
+        "BI_MONTHLY": "Bimensal",
+        "TRI_MONTHLY": "Trimestral",
+        "QUARTERLY": "Quadrimestral",
+        "SEMI_ANNUAL": "Semestral",
+        "ANNUAL": "Anual"
+    },
+    "FormValidator": {
+        "FIELD_REQUIRED": "Campo de preenchimento obrigatório",
+        "FIELD_INVALID": "Informação inválida",
+        "FIELD_BIGGER_THAN_ACTIVATION":
+            "DATA FINAL DEVE SER  POSTERIOR A  ATIVAÇÃO",
+        "FIELD_BIGGER_THAN_ENDDATE":
+            "PRAZO DE VÁLIDADE DEVE SER POSTERIOR A DATA FINAL",
+        "FIELD_MUST_BE_GREATER_ZERO": "CAMPO DEVE SER MAIOR DO QUE 0.00",
+        "FIELD_PERCENTAGE_FINANCED_RANGE": "0.01% PARA ",
+        "FIELD_PERCENTAGE_COMMON_RANGE":
+            "PORCENTAGEM PERCENTUAL ENTRE 0.01% E 99.99%",
+        "FIELD_PERCENTAGE_COMMON_RANGE_START_ZERO":
+            "PORCENTAGEM PERCENTUAL ENTRE 0.00% E 99.99%",
+        "FIELD_PERCENTAGE_COMMON_RANGE_100":
+            "PORCENTAGEM PERCENTUAL ENTRE 0.01% A 100%",
+        "FIELD_GREATER_THAN_MINFINANCING":
+            "MÁXIMO DEVE SER MAIOR DO QUE O MÍNIMO",
+        "FIELD_GREATER_THAN_0": "DEVE SER MAIOR DO QUE 0.00",
+
+        "FIELD_EQUAL_OR_GREATER_THAN_0": "DEVE IGUAL OU MAIOR DO QUE 0.00",
+        "FIELD_CHOOSE_ONE": "SELECIONAR AO MENOS UM",
+        "BETWEEN_ZERO_AND_TWELVE": "INFORMAR VALOR ENTRE 0 E 12",
+        "GREATER_THAN_ZERO": "INFORMAR VALOR MAIOR DO QUE ZERO",
+        "FIELD_UNIQUE": "DEVE SER ÚNICO",
+        "FIELD_MUST_CONTAIN_CONDITIONS": "OBRIGATÓRIO SELECIONAR UMA CONDIÇÃO",
+        "FIELD_PARTICIPANTS": "POR FAVOR, SELECIONE UM PARTICIPANTE",
+        "FIELD_ROLE": "POR FAVOR, SELECIONE UMA REGRA",
+        "INSERT_DOCUMENT_TYPE": "Necessário especificar um documento obrigatório",
+        "FIELD_PRESENTATION_DECLARED":
+            "SELECIONE UMA APRESENTAÇÃO COMO DECLARADA",
+        "FORM_REQUIRED":
+            "POR FAVOR, COMPLETE OS CAMPOS OBRIGATÓRIOS DESTACADOS EM VERMELHO",
+        "MUST_BE_GREATER_MIN_GRACE_PERIOD":
+            "DEVE SER MAIOR DO QUE PERÍODO MINIMO DE CARÊNCIA",
+        "MUST_BE_SMALLER_MAX_GRACE_PERIOD":
+            "DEVE SER MENOR DO QUE PERÍODO MÁXIMO DE CARÊNCIA",
+        "FIELD_SUBSIDY_FLEXIBLE_MIN_PERCENTAGE_INVALID":
+            "SUBSÍDIO MINIMO DEVE SER MENOR DO QUE SUBSÍDIO MÁXIMO",
+        "FIELD_SUBSIDY_FLEXIBLE_MAX_PERCENTAGE_INVALID":
+            "SUBSÍDIO MÁXIMO DEVE SER MAIOR DO QUE SUBSÍDIO MINIMO",
+        "FIELD_CLIENT_SUBSIDY_INVALID":
+            "SUBSÍDIO DO CLIENTE DEVE SER MENOR DO QUE INTERVALO FLEXÍVEL",
+        "NEW_DEALER_SUBSIDY_FLEXIBLE_MIN_INVALID":
+            "SUBSÍDIO CONCESSIONÁRIO DEVE SER MENOR DO QUE SUBSÍDIO MÁXIMO",
+
+        "DOCUMENT_ALREADY_INSERTED": "DOCUMENTO JÁ INSERIDO",
+        "LEAST_DOCUMENT": "POR FAVOR, INSIRA PELO MENOS UM DOCUMENTO"
+    },
+    "OperationParticipantRole": {
+        "MAIN_OFFEROR": "Proponente Principal",
+        "OFFEROR": "Proponente",
+        "AVAL_GUARANTOR": "Aval Garantidor",
+        "SOLIDARITY_DEBTOR": "Devedor Solidário",
+        "AVAL_AUTHORIZING_PERSON": "Autorizante de  Aval",
+        "MORTGAGEE": "Hipotecante",
+        "CONSENTING_PARTY": "Parte Consentida",
+        "OWNER": "Proprietário",
+        "ECONOMIC_GROUP": "Grupo Econômico",
+        "FIDUCIARY_GUARANTOR": "Alienante Fiduciário"
+    },
+    "ContactType": {
+        "EMAIL": "Email",
+        "PHONE": "Telefone",
+        "MOBILE": "Celular"
+    },
+    "CreditStatus": {
+        "DRAFT": "Rascunho",
+        "WAITING_ANALYSIS_DOCUMENTATION": "Aguardando Análise - Documentação",
+        "IN_ANALYSIS_BY_BANK": "Em Análise pelo Banco - Documentação",
+        "WAITING_PENDING_RESOLUTION":
+            "Aguardando Regularização de Pendências-Doc",
+        "WAITING_CREDIT_ANALYSIS": "Aguardando Análise do Crédito",
+        "IN_CREDIT_ANALYSIS": "Em Análise de Crédito",
+        "WAITING_CREDIT_PENDING_RESOLUTION":
+            "Aguardando Regularização de Pendências-Crédito",
+        "APPROVED": "Completo - Aprovado",
+        "DENIED": "Completo - Negado",
+        "PROCESS_LIMIT_DISCARDED": "Processo de Limite Descartado",
+        "LIMIT_CANCELLED": "Limite Cancelado",
+        "EXPIRED": "Expirado"
+    },
+    "CreditSituation": {
+        "UNDEFINED": "Indefinido",
+        "APPROVED": "Aprovado",
+        "DENIED": "Negado",
+        "CLOSED": "Fechado",
+        "ALL_CRED_SITUATIONS": "Todas as Situaçãod do Créd."
+    },
+    "CreditRequestEnabledLabel": {
+        "ENABLED": "Habilitado",
+        "DISABLED": "Desabilitado"
+    },
+    "FinancingProgramStatusLabel": {
+        "DRAFT": "RASCUNHO",
+        "CREATED": "CRIADO",
+        "CANCELLED": "CANCELADO"
+    },
+    "FinancingProgramConditionType": {
+        "CUSTOMER": "Cliente Específico",
+        "DEALER": "Dealer Específico",
+        "CROP": "Cultura",
+        "REGION": "Regiões",
+        "CUSTOMER_CATEGORY": "Grupo de Cliente"
+    },
+    "ClientStatusLabel": {
+        "APPROVED": "Aprovado",
+        "SENT": "Enviado",
+        "APPROVED_CREDIT_ANALYSIS": "Análise de Créd."
+    },
+    "TransactionStatusLabel": {
+        "UNDEFINED": "Indefinido",
+        "DRAFT": "Rascunho",
+        "CUSTOMER_WITH_RESTRICTIONS": "Cliente com restrições",
+        "IN_ANALYSIS_BY_BANK_RESTRICTIONS": "Em Análise pelo banco - Restrições",
+        "WAITING_PENDING_REGULARIZATION_RESTRICTIONS":
+            "Aguardando regularização - Restrições",
+        "CONTINUE_WITH_TRANSACTION": "Continuar com transação",
+        "WAITING_ANALYSIS_CONTRACT": "Aguardando Análise - Contrato",
+        "IN_ANALYSYS_BY_BANK_CONTRACT": "Em Análise pelo banco - Contrato",
+        "WAITING_PENDING_REGULARIZATION_CONTRACT":
+            "Aguardando regularização - Contrato",
+        "WAITING_RELEASE": "Aguardando Liberação de Recursos",
+        "RELEASED": "Liberado",
+        "PROCESS_UTILIZATION_DISCARDED": "Processo Descartado"
+    },
+    "newTransactionScreen": {
+        "Save as a Draft": "Salvar como Rascunho",
+        "Save changes": "Salvar Mudanças",
+        "Submit Request": "Submeter Requisição",
+        "Discard Draft": "Descartar Rascunho",
+        "Resend": "Reenviar",
+        "Cancel Request": "Cancelar Requisição",
+        "Start Analysis": "Iniciar Análise",
+        "Release Restrictions": "Liberar Restrições",
+        "Waiting Regularization": "Aguardando Regularização",
+        "Start Contract Analysis": "Iniciar Análise do Contrato",
+        "Release": "Liberar",
+        "Waiting Pendending Regularization":
+            "Aguardar Regularização Pendências",
+        "Back": "Voltar"
+    },
+    "CreditType": {
+        "ADDITIONAL": "ADICIONAL",
+        "REQUIRED": "ESPECÍFICO",
+        "PREAPPROVED": "PRÉ-APROVADO"
+    },
+    "GoiGaiType": {
+        "REAL": "Efetivo",
+        "EXPECTED": "Experado"
+    },
+    "NotificationMessage": {
+        "PENDENCY_CREATION_SUCESS": "PENDÊNCIA CRIADA COM SUCESSO",
+        "PENDENCIES_UPDATED_SUCESS": "PENDÊNCIA ATUALIZADA COM SUCESSO",
+        "PENDENCY_UPDATED": "PENDÊNCIA ATUALIZADA COM SUCESSO",
+        "PENDENCY_DOCUMENT_UPDATED": "DOCUMENTO ATUALIZADO COM SUCESSO",
+        "PENDENCY_TITLE": "NOME DA PENDÊNCIA",
+        "PENDENCY_ACTION_CHANGED":
+            "ANTES DE RESOLVER A PENDÊNCIA VOCÊ DEVE INICIAR A ANÁLISE DE DOCUMENTAÇÃO, CLIQUE NO BOTÃO ABAIXO E TENTE NOVAMENTE",
+        "CREDIT_SUCCESSFULLY_REQ": "LIMITE DE CRÉDITO REQUISITADO COM SUCESSO",
+        "CREDIT_SUCCESSFULLY_PENDENCIES":
+            "LIMITE DE CRÉDITO REQUISITADO COM PENDÊNCIAS",
+        "WAIT_FOR_BANK": "Aguarde pelo retorno do banco",
+        "ERROR": "OCORREU UM ERRO AO SUBMETER A REQUISIÇÃO",
+        "GENERIC_ERROR":
+            "Um erro foi reportado ao administrador, por favor aguarde",
+        "DRAFT_SAVED_SUCCESS": "RASCUNHO SALVO COM SUCESSO",
+        "DRAFT_EDITED_SUCCESS": "TRANSAÇÃO EDITADO COM SUCESSO",
+        "DRAFT_DISCARDED_SUCCESS": "RASCUNHO DISCARTADO COM SUCESSO",
+        "TRANSACTION_CANCELED_SUCCESS": "TRANSAÇÃO CANCELADA COM SUCESSO",
+        "SUCCESS_RESENT_REQ": "REQUISIÇÃO REENVIA COM SUCESSO",
+        "SUCCESS_RESENT_REQ_PENDENCIES": "REQUISIÇÃO REENVIADA COM PENDÊNCIAS",
+        "LIMIT_CANCELED_SUCCESS": "LIMITE DE CRÉDITO CANCELADO COM SUCESSO",
+        "SUCCESS_EDITED_CREDIT": "LIMITE DE CRÉDITO EDITADO COM SUCESSO",
+        "SUCCESS_SAVED_FINANCING_PROGRAM":
+            "PROGRAMA DE FINANCIAMENTO SALVO COM SUCESSO",
+        "DRAFT_DISCARTED_SUCCESS": "RASCUNHO DESCARTADO COM SUCESSO",
+        "TRANSACTION_SUCCESS": "TRANSAÇÃO REALIZADA COM SUCESSO",
+        "PLEASE_COMP_REQUIRED_FIELDS":
+            "POR FAVOR, PREENCHA OS CAMPOS OBRIGATÓRIOS",
+        "CHECK_FIELDS_IN_RED": "Verifique os campos destacados em vermelho",
+        "SUCCESS_DISCARD_FINANCING_PROGRAM":
+            "PROGRAMA DE FINANCIAMENTO DESCARTADO COM SUCESSO",
+        "SUCCESS_ANALYSIS_SENT": "ANÁLISE INICIADA COM SUCESSO",
+        "SUCCESS_WAIT_PENDING": "AGUARDANDO SOLUÇÃO DE  PENDÊNCIAS COM SUCESSO",
+        "SUCCESS_ACCEPT": "ACEITO COM SUCESSO",
+        "RULE_SAVED": "Regra Salva",
+        "PENDENCY_NEW_INFORMATION_ERROR":
+            "PREENCHA AS INFORMAÇÕES OU CARREGUE UM ARQUIVO",
+        "CREDIT_SUCCESSFULLY_CANCELED": "Limite de Crédito cancelado com sucesso",
+        "GENERATE_CONTRACT_SUCCESS": "Contrato gerado com sucesso"
+    },
+    "Errors": {
+        "GENERIC_ERROR":
+            "Um erro foi reportado ao administrador, por favor aguarde",
+
+
+        "CLP-1":
+            "Existe uma ou mais pendências sem informações obrigatórias. Atualize a documentação obrigatória e tente submeter novamente.",
+        "CLP-2":
+            "Você precisa  anexar o PDF de todas as Notas Fiscais das pendências. Carregue o arquivo e tente novamente.",
+        "CLP-3":
+            "O cliente não está disponível para submeter um limite de crédito. Verifique a situação do cliente e a validade da base de dados.",
+        "CLP-4":
+            "Já existe outro limite de crédito aberto para esse cliente. Verifique e tente submeter novamente.",
+        "CLP-5":
+            "Processo sem pendências ativas, necessário gerar uma pendência para aplicação do próximo estágio.",
+        "CLP-7": "Existe pendências abertas para serem resolvidas",
+        "CLP-8": "Dealer inválido ou não encontrado",
+        "CLP-9":
+            "O participante deve ter pelo menos uma atribuição de figura no processo",
+        "CLP-10":
+            "Antes de resolver a pendência você deve iniciar a análise de documentação, clique no botão abaixo e tente novamente.",
+
+        "UNDR-1":
+            "Ocorreu um erro ao abrir comunicação com o sistemas AP e EC2. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+        "UNDR-2":
+            "Ocoreu um erro ao criar o processo no sistema AP. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+        "UNDR-3":
+            "Ocorreu um erro ao atualizar o processo com o sistema AP. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+
+        "TRP-1":
+            "O Programa de Financiamento selecionado para a transação não permite os tipos de itens financiados inseridos para as faturas. Ajuste as faturas ou selecione um novo programa de financiamento.",
+        "TRP-2":
+            "Você precisa anexar o arquivo PDF de todas as faturas das pendências. Carregue o arquivo e tente novamente.",
+        "TRP-3":
+            "O Programa de Financiamento não está mais ativo. Selecione um novo.",
+        "TRP-4":
+            "O montante financiado está fora da faixa de financiamento do Programa de Financiamento.",
+        "TRP-5": "Limite de Crédito indisponível para utilização",
+        "TRP-6": "Limite de Crédito expirado para utilização",
+        "TRP-7":
+            "O montante financiado é maior do que o limite de crédito disponível para o cliente",
+        "TRP-13":
+            "Existe uma ou mais faturas sem pendências para carregar o PDF. Atualize as pendências clicando no botão Gerar Pendências.",
+        "TRP-18":
+            "Existe uma ou mais pendência sem preenchimento das informações obrigatórias. Complemente as informações e tente submeter novamente.",
+        "TRP-19":
+            "Processo sem pendências ativas, necessário gerar uma pendência para aplicação do próximo estágio.",
+        "TRP-20":
+            "Ainda existe uma ou mais pendências abertas. Dispense ou resolva todas as pendências",
+        "TRP-21":
+            " A data de Emissão da Nota Fiscal está fora do prazo de validade permitido",
+        "TRP-22": "Não foi possível atualizar seu Limite de Crédito",
+        "TRP-23": "Valor do Limite de Crédito não disponível",
+        "TRP-24":
+            "O valor do subsídio selecionado para o Dealer é inválido. Deve estar entre o intervalo de subsídio permitido do Programa de Financiamento.",
+        "TRP-25":
+            "Percentual definido para subsídio do Dealer está nulo ou inválido",
+        "TRP-26":
+            "O intervalo do subsídio para o Dealer no Programa de Financiamento está nulo ou inválido",
+        "TRP-27":
+            "A taxa do cliente no Programa de Financiamento está nula ou inválida",
+        "TRP-28": "A taxa do cliente está nula ou inválida",
+        "TRP-29": "Nota Fiscal vazia",
+        "TRP-30":
+            "Incluída uma pendência no processo para a cédula de financiamento que foi gerada.",
+        "TRP-31":
+            "Um ou mais participantes do processo com títulos em atraso, necessário regularização ou dispensa da pendência para continuidade da liberação dos recursos.",
+
+        "CNT-1": "Modelo não encontrado",
+        "CNT-2": "Transação está nula",
+        "CNT-3": "Limite de Crédito está nulo",
+        "CNT-4": "Não foi possível gerar o modelo",
+        "CNT-5": "Limite de Crédito não encontrado",
+
+        "PND-13": "Pendência não encontrada",
+        "PND-17": "Submissão de pendencia requer um documento",
+        "PND-22":
+            "Esse arquivo está desatualizado, atualize a página e tente novamente",
+        "PND-23": "Arquivo vázio ou nulo",
+        "PND-24": "A regra do documento está nula",
+        "PND-25": "Nome da Regra está nulo.",
+        "PND-26": "Regra está nula",
+        "PND-27": "Regra para a validade do banco de dados do cliente inválida",
+        "PND-28": "Regra para o intervalo de limite inválida",
+        "PND-29": "Regra para o risco total inválida",
+        "PND-30": "Regra para a situação inválida",
+        "PND-31": "Regra para o tipo de cliente inválida",
+        "PND-32": "Regra para o tipo de documento inválida",
+        "PND-33": "Regra para a moeda inválida",
+        "PND-34": "Regra para o ID externo do documento inválida",
+        "PND-35": "Documento obrigatório inválido",
+        "PND-36": "Apresentação de documento obrigatório inválida",
+        "PND-37": "Já existe uma regra com essas configurações registrada",
+        "PND-38": "Erro no arquivo.",
+        "PND-39":
+            "Um ou mais campos obrigatórios da pendência está faltando preenchimento",
+
+        "FP-1": "Erro na Validação do Programa de Financiamento",
+
+        "HERMES-1":
+            "Ocorreu um erro ao abrir comunicação com o sistema Hermes. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+        "HERMES-2":
+            "Ocorreu um erro ao abrir comunicação com o sistema Hermes. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+        "HERMES-3":
+            "Ocorreu um erro ao abrir comunicação com o sistema Hermes. Por favor, entre em contato com o administrador e tente novamente mais tarde.",
+        "HERMES-4":
+            "Ocorreu um erro ao abrir comunicação com o sistema Hermes. Por favor, entre em contato com o administrador e tente novamente mais tarde."
+    },
+    "invoiceDetail": {
+        "Refresh Pendencies": "Atualizar Pendências",
+        "Parts": "Peças",
+        "Subtotal Invoice": "Subtotal da Nota Fiscal",
+        "Subtotal Financed": "Subtotal Financiado",
+        "Services": "Serviços",
+        "Total": "Total",
+        "Total Invoice": "Total da Nota Fiscal",
+        "Total Financed": "Total Financiado",
+        "Current Amount Financed / Max. Value Financed":
+            " Valor Financiado Atual / Valor Máx. Financiado",
+        "Invoice Details": "Detalhes da Nota Fiscal",
+        "Add Invoice": "Adicionar Nota Fiscal",
+        "Upload XML": "Carregar XML",
+        "Delete Invoices": "Exluir Nota Fiscal",
+        "Access Key": "Chave de Acesso",
+        "Invoice Number": "Número da Fatura Nota Fiscal",
+        "Invoice PDF": "PDF da Nota Fiscal",
+        "Item Type": "Tipo de Item",
+        "Date of issue": "Data de Emissão",
+        "Invoice Total": "Total da Nota Fiscal",
+        "% Financed": "% Financiado",
+        "Amount Finan.": "Valor Financ.",
+        "EMPTY":
+            "Nenhuma Nota Fiscal registrada. Adicione uma clicando em '+Adicionar Fatura Nota Fiscal'.",
+        "Pendency": "Pendência",
+        "Open": "Ver",
+        "Your invoices did reach the Min. Value Financed.":
+            "As Notas Fiscais incluídas não atingiram o limite mínimo de  valor a ser financiado.",
+        "Your invoices exceed the Max. Value Financed.":
+            "As Notas Fiscais incluídas excedem o valor máximo a ser financiado",
+        "You exceed your credit limit value.": "Limite de Crédito excedido",
+        "You exceed your credit limit value and your invoices did not reach the Min. Value Financed.":
+            "Limite de Crédito excedido sem atingir o valor mínimo a ser financiado",
+        "Please check your invoices and change the values.":
+            "Por favor verifique as Notas Fiscais incluídas e faça alterações necessárias para continuidade do processo."
+    },
+    "Pendency": {
+        "Document Type": "Tipo de Documento",
+        "PresentationTypes_ORIGINAL": "Original",
+        "PresentationTypes_DIGITAL": "Digital",
+        "PresentationTypes_AUTHENTICATED": "Cópia Autenticada",
+        "PresentationTypes_CÓPIA SIMPLES": "Cópia Simples",
+        "PresentationTypes_CÓPIA AUTENTICADA CARTÓRIO":
+            "Cópia Autenticada em cartório",
+        "PresentationTypes_DOCUMENTO VIRTUAL": "Documento Digital",
+        "PresentationTypes_CÓPIA AUTENTICADA ADMINISTRATIVAMENTE":
+            "Cópia autenticada administrativamente ",
+        "Required": "Obrigatório",
+        "Requirement": "Obrigatório",
+        "TargetType": "Alvo",
+        "PROCESS": "Processo",
+        "PERSONAL": "Pessoal",
+        "Presentation": "Apresentação",
+        "Select Submission": "Selecione o tipo de apresentação",
+        "Select Required": "Selecione o tipo obrigatório",
+        "Select Document": "Selecione o tipo de documento",
+        "Target": "Participante do processo",
+        "Comments": "Comentário",
+        "Cancel": "Cancelar",
+        "Create": "Criar",
+        "DIGITAL": "Documento Digital",
+        "ORIGINAL": "Original",
+        "AUTHENTICATED": "Cópia Autenticada",
+        "SIMPLE_COPY": "Cópia Simples",
+        "Presentation Required": "Apresentação Requerida",
+        "Presentation of the original document":
+            "Apresentação do documento original",
+        "Upload Document Required": "Carregar o documento no campo abaixo",
+        "Upload Document Optional": "Carregar o documento é opcional",
+        "Upload Files": "Clique aqui para carregar os arquivos",
+        "Send": "Enviar",
+        "Save": "Salvar",
+        "Hide more pendency": "Esconder Pendências",
+        "Reject and Dismiss": "Rejeitar e Dispensar",
+        "Dismiss": "Dispensar",
+        "Reject": "Rejeitar",
+        "Approve": "Aprovar",
+        "Select the Presentation": "Selecione a Apresentação",
+        "File must contain a maximum of": "Arquivo deve conter o máximo de",
+        "Mb": "Megabyte",
+        "Extension ": "Extensão",
+        "not allowed!": "não permitida!",
+        "Show Details": "+ Mostrar Detalhes",
+        "Hide Details": "- Esconder Detalhes",
+        "Upload a copy of ": "Carregar cópia de ",
+        "Participant": "Participante",
+        "Create Pendency": "Criar Pendência",
+        "New Information": "Nova Informação",
+        "If you upload document": "Se você carregar o documento",
+        "Fill in Remarks or Upload":
+            "* Preencha o campo de Observações ou Carregue um arquivo",
+        "Are you sure you want to approve this pendency":
+            "Você tem certeza que quer aprovar essa pendência?",
+        "Are you sure you want to dismiss this pendency":
+            "Você tem certeza que quer dispensar essa pendência?",
+        "Are you sure you want to reject this pendency":
+            "Você tem certeza que quer rejeitar essa pendência?",
+        "Are you sure you want to reject and dismiss this pendency":
+            "Você tem certeza que quer rejeitar e dispensar essa pendência?",
+        "Are you sure you want to send this pendency":
+            "Você tem certeza que quer enviar essa pendência?",
+        "Download": "Baixar",
+        "Remarks": "Observações",
+        "Load more pendency": "Carregar mais pendências",
+        "Resending Document": "Reenviar Documento",
+        "Are you sure do you want to replace the current file?":
+            "Você tem certeza que quer trocar o arquivo atual?",
+        "View Process": "Visualizar Processo",
+        "View Transaction": "Visualizar Transação",
+        "These required documents are only informative. To create the pendencies to them, save this process as WIP.":
+            "Esses documentos obrigatórios são apenas informativos. Para criar as pendências e anexar documentos, é necessário salvar o processo.",
+        "IMPORTANT:": "IMPORTANTE:",
+        "File type not allowed": "Tipo de Arquivo não permitido"
+    },
+    "History": {
+        "History": "Histórico",
+        "Process": "O processo foi ",
+        "Transaction": "A transação foi ",
+        "Pendency": "A pendência foi ",
+        "Credit Limit": "O limite de crédito foi ",
+        "by": " por ",
+        "Load more informations": "Carregar mais informações",
+        "Hide informations": "Esconder informações",
+        "Remarks": "Observações",
+        "CREATE": "criado",
+        "SEND": "enviado",
+        "REJECT_ONLY": "rejeitado",
+        "DISMISS": "dispensado",
+        "REJECT_AND_DISMISS": "rejeitado e dispensado",
+        "ACCEPT": "aceito",
+        "SAVE": "salvo",
+        "CANCEL": "cancelado",
+        "CANCEL_REQUEST": "cancelado",
+        "RESEND_CREDIT_ANALYSIS": "reenviado para análise de crédito",
+        "EXPIRED_VIA_SYSTEM": "expirado",
+        "SEND_CREDIT_ANALYSIS": "enviado",
+        "CANCEL_CREDIT_LIMIT": "cancelado",
+        "START_DOC_ANALYSIS": "em análise de doc.",
+        "WAIT_PENDING_RESOLUTION": "aguardando regularização de pendências",
+        "START_CREDIT_ANALYSIS": "em análise pelo banco",
+        "APPROVE": "aprovado",
+        "FINISH_REQUEST": "Concluído",
+        "SAVE_DRAFT": "Salvo",
+        "SUBMIT": "submetido",
+        "SAVE_CHANGES": "Salvo",
+        "DISCARD": "descartado",
+        "RESEND": "reenviado",
+        "START_ANALYSIS": "análise iniciada",
+        "RELEASE_RESTRICTIONS": "restrições registradas",
+        "WAITING_REGULARIZATION_RESTRICTIONS":
+            "aguardando regularização de restrições",
+        "RELEASE": "Liberado",
+        "WAITING_REGULARIZATION_CONTRACT": "aguardando regularização do contrato",
+        "AUTOMATICALLY_PERFORMED": "bloqueado por restritivos",
+        "CHANGE_DOCUMENT": "arquivo carregado",
+        "CANCEL_PROCESS": "cancelado"
+    },
+    "PendencySituation": {
+        "OPEN": "ABERTA",
+        "OPEN_WAIT_ANALYSIS": "ABERTA - AGUARDANDO ANÁLISE",
+        "RESOLVED": "REGULARIZADA",
+        "DISMISSED": "DISPENSADA",
+        "CANCELLED": "CANCELADA"
+    },
+    "errorPlacer": {
+        "Error": "Erro",
+        "A error occurred": " Ocorreu um erro",
+        "see details": "ver detalhes"
+    },
+    "ClientStageLabel": {
+        "APPROVED": "APROVADO",
+        "CANCELED": "CANCELADO",
+        "EXPIRED": "EXPIRADO"
+    },
+    "advancedSearch": {
+        "Credit Limit": "Limite de Crédito",
+        "filterError": "Ocorreu um erro ao tentar filtrar as pendências",
+        "Pendencies": "Pendências",
+        "title": "Busca Avançada",
+        "Transactions": "Transações",
+        "No registered pendencies, try filter another one":
+            "Nenhuma pendência encontrada.",
+        "No registered credit limits, try filter another one":
+            "Nenhum limite de crédito encontrado.",
+        "No registered transactions, try filter another one":
+            "Nenhuma transação encontrada."
+    },
+    "advancedSearchButtons": {
+        "Clear Filters": "Limpar Filtros",
+        "Search": "Procurar"
+    },
+    "advancedSearchForm": {
+        "amountAvailable": "Valor Disponível",
+        "amountFinanced.value": "Valor Financiado",
+        "amountRange": "Faixa de Valor",
+        "availableLimit.value": "Limite Disponível",
+        "creationDate": "Data de Criação",
+        "creditLimitId": "Número do Limite de Crédito",
+        "creditLimitProcessId": "Número  do Proc. de Limit de Créd.",
+        "creditLimitProcessStatus": "Situação do Proc. de Limite de Créd.",
+        "creditLimitStatus": "Situação do Limite de Créd.",
+        "creditTransactionStatus": "Situação da Transação",
+        "creditType": "Tipo de Crédito",
+        "customerName": "Nome do Cliente",
+        "document": "CPF/CNPJ",
+        "documentType": "Tipo de Documento",
+        "externalId": "Id Número  Externo",
+        "financingProgram": "Programa de Financiamento",
+        "id": "Número",
+        "legalEntityDocument": "Número do CNPJ",
+        "legalEntityId": "Número do Cliente",
+        "legalEntityName": "Nome da Empresa",
+        "maxAmount": "Valor Final Disponível",
+        "maxCreationDate": "Data de Criação Final",
+        "minAmount": "Valor Inicial Disponível",
+        "minCreationDate": "Data de Criação Inicial",
+        "name": "Nome",
+        "processId": "Número do Processo",
+        "processStage": "Estágio do Processo",
+        "status": "Situação",
+        "selectPendency": "Selecione uma Pendência",
+        "transactionId": "Número da Transação",
+        "transactionStage": "Estágio da Transação",
+        "actions": "Ações",
+        "restrictions": "Restrições",
+        "incomes": "Rendas",
+        "roles": "Figuras",
+        "grossAgricultureIncome": "Renda Agrícola Bruta",
+        "grossOperationalIncome": "Renda Operacional Bruta"
+    },
+    "advancedSearchPlaceholders": {
+        "Search Financing Program": "Pesquisar Programa de Financiamento"
+    },
+    "buttons": {
+        "Back": "Voltar"
+    }
+}
